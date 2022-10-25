@@ -136,7 +136,7 @@ class Login extends React.Component<ILoginProps> {
                     <Checkbox checked={loginModel.rememberMe} onChange={loginModel.toggleRememberMe} style={{ paddingRight: 8 }} />
                     {L('RememberMe')}
                     <br />
-                    <a href="#">{L('ForgotPassword')}</a>
+                    <a href="#"> {L('ForgotPassword')}</a>
                   </Col>
 
                   <Col span={8} offset={4}>
