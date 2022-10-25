@@ -10,7 +10,7 @@ import ListExample from './components/ListExample';
 
 export class Dashboard extends React.Component<any> {
   componentDidMount() {
-    setTimeout(() =>  this.setState({ cardLoading: false }), 1000);
+    setTimeout(() =>    this.setState({ cardLoading: false }), 1000);
     setTimeout(() => this.setState({ lineChartLoading: false }), 1500);
     setTimeout(() => this.setState({ barChartLoading: false }), 2000);
     setTimeout(() => this.setState({ pieChartLoading: false }), 1000);
